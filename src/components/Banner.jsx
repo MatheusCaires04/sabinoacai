@@ -18,7 +18,7 @@ const Banner = () => {
                     Peça o melhor açai no <strong className='text-[#e0bcdd] underline'>SABINO AÇAI</strong> e tenha o melhor sabor com as melhores combinações. Perfeição existe e está no <strong className='text-[#e0bcdd] underline'>SABINO AÇAI</strong>.
                 </p>
             </div>
-            <img src="/assets/banner.png" alt="Copo de açai com frutas em cima" className='absolute bottom-0 right-0 w-[38rem]' data-aos='fade-right' data-aos-duration="2000" />
+            <img src="/assets/banner.png" alt="Copo de açai com frutas em cima" className='absolute bottom-0 right-0 w-[38rem]' data-aos='fade-up' data-aos-duration="2000" />
         </div>
     </div>
   )

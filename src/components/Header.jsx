@@ -13,8 +13,8 @@ const Header = () => {
               <a href="#products" className='hover:scale-95 duration-200'>PRODUTOS</a>
             </nav>
             <div className='flex items-center gap-2 text-2xl text-white'>
-              <a href="#" className='hover:scale-110 hover:rotate-2 duration-200'><AiFillFacebook /></a>
-              <a href="#" className='hover:scale-110 hover:rotate-2 duration-200'><AiFillInstagram /></a>
+              <a href="#" target='_blank' className='hover:scale-110 hover:rotate-2 duration-200'><AiFillFacebook /></a>
+              <a href="https://www.instagram.com/sabino_acai/" target='_blank' className='hover:scale-110 hover:rotate-2 duration-200'><AiFillInstagram /></a>
             </div>
         </div>
     </header>
