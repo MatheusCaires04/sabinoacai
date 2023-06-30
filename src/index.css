@@ -7,3 +7,16 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.circle__animation {
+    animation: circleAnimation 1500ms infinite;
+}
+
+@keyframes circleAnimation {
+    0% {
+        box-shadow: #ffffff31 0 0 0 0;
+    }
+    100% {
+        box-shadow: #ffffff0e 0 0 0 16px;
+    }
+}
