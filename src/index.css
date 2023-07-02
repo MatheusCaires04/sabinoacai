@@ -8,6 +8,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
 .circle__animation {
     animation: circleAnimation 1500ms infinite;
 }
@@ -19,4 +24,12 @@
     100% {
         box-shadow: #ffffff0e 0 0 0 16px;
     }
+}
+
+.swiper-pagination-bullet {
+    @apply bg-[#993399] z-20
+}
+
+.swiper-pagination {
+    @apply cursor-default
 }
