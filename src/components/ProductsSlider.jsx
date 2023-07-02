@@ -13,7 +13,11 @@ const ProductsSlider = () => {
       className="w-full py-14 bg-[#993399]/20 flex flex-col items-center"
       id="products"
     >
-      <h1 className="text-5xl font-bold font-titleBanner mb-10">
+      <h1
+        className="text-5xl font-bold font-titleBanner mb-10"
+        data-aos="fade-left"
+        data-aos-duration="3000"
+      >
         Produtos Exclusivos
       </h1>
 
@@ -25,6 +29,8 @@ const ProductsSlider = () => {
         }}
         modules={[Pagination]}
         className="mySwiper h-full w-full max-w-[1100px] mx-auto cursor-grab pt-5 pb-10"
+        data-aos="fade-left"
+        data-aos-duration="3000"
       >
         {typesAcai.map((item, index) => {
           return (
