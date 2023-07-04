@@ -20,7 +20,7 @@ const ButtonUp = () => {
     <a
       href="#home"
       className={`${
-        buttonActive ? "flex fixed" : "none"
+        buttonActive ? "flex md:hidden fixed" : "hidden"
       } bottom-5 right-5 bg-[#993399] p-3 text-xl text-white rounded-lg z-[999] duration-500`}
     >
       <FaArrowUp />
