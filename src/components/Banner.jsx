@@ -30,7 +30,7 @@ const Banner = () => {
             <strong className="text-[#e0bcdd] underline">SABINO AÇAI</strong>.
           </p>
         </div>
-        <div className="h-full w-full md:w-[50%] flex items-center justify-center md:justify-end">
+        <div className="h-full w-full md:w-[50%] flex items-start md:items-center justify-center md:justify-end">
           <img
             src="/assets/banner2.webp"
             alt="Copo de açai com frutas em cima"
