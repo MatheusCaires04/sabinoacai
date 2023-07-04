@@ -6,6 +6,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProductsSlider from "./components/ProductsSlider";
+import ButtonUp from "./components/ButtonUp";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <ProductsSlider />
       <Footer />
+      <ButtonUp />
     </>
   );
 }

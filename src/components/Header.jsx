@@ -3,12 +3,16 @@ import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-[#993399] h-20 z-[9999]">
+    <header className="fixed top-0 left-0 right-0 bg-[#993399] h-20 z-[9999] px-8">
       <div className="w-full max-w-[1100px] mx-auto h-full px-8 md:px-0 flex items-center justify-between">
         <div>
-          <img src="/assets/logo.png" alt="Logo do Açai" className="w-16" />
+          <img
+            src="/assets/logo.png"
+            alt="Logo do Açai"
+            className="w-12 sm:w-16"
+          />
         </div>
-        <nav className="flex gap-8 text-white font-semibold">
+        <nav className="hidden sm:flex gap-8 text-white font-semibold">
           <a href="#home" className="hover:scale-95 duration-200">
             SABINO AÇAI
           </a>

@@ -1,20 +1,21 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
+
 import { typesAcai } from "../data/data-acai";
 import ProductItem from "./ProductItem";
 
 const ProductsSlider = () => {
   return (
     <div
-      className="w-full py-14 bg-[#993399]/20 flex flex-col items-center"
+      className="w-full py-14 px-8 bg-[#993399]/20 flex flex-col items-center"
       id="products"
     >
       <h1
-        className="text-5xl font-bold font-titleBanner mb-10"
+        className="text-4xl md:text-5xl font-bold font-titleBanner mb-10 text-center"
         data-aos="fade-left"
         data-aos-duration="3000"
       >
@@ -23,11 +24,18 @@ const ProductsSlider = () => {
 
       <Swiper
         slidesPerView={5}
-        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        breakpoints={{
+          0: { slidesPerView: 1, spaceBetween: 80 },
+          480: { slidesPerView: 2, spaceBetween: 30 },
+          768: { slidesPerView: 3, spaceBetween: 30 },
+          1024: { slidesPerView: 5, spaceBetween: 30 },
+        }}
+        loop={true}
+        autoplay={true}
+        modules={[Pagination, Autoplay]}
         className="mySwiper h-full w-full max-w-[1100px] mx-auto cursor-grab pt-5 pb-10"
         data-aos="fade-left"
         data-aos-duration="3000"
