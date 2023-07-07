@@ -22,7 +22,7 @@ const Header = () => {
         </nav>
         <div className="flex items-center gap-2 text-2xl text-white">
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=100091961262001&mibextid=LQQJ4d"
             target="_blank"
             className="hover:scale-110 hover:rotate-2 duration-200"
           >

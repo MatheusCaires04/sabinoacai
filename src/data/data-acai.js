@@ -20,15 +20,15 @@ export const typesAcai = [
         title: 'Especial',
     },
     {
-        image: '/assets/image1.jpg',
+        image: '/assets/image7.jpg',
         title: 'Especial',
     },
     {
-        image: '/assets/image2.jpg',
+        image: '/assets/image8.jpg',
         title: 'Especial',
     },
     {
-        image: '/assets/image3.jpg',
+        image: '/assets/image9.jpg',
         title: 'Especial',
     },
     {
