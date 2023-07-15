@@ -18,7 +18,7 @@ const About = () => {
               <strong className="text-[#993399] underline">SABINO AÇAI</strong>{" "}
               criamos está empresa pensando no melhor e mais perfeito açai da
               região, e junto disso, com todo conforto e comodidade aos nossos
-              clientes. Com isto, nossa empresa empresa trabalha totalmente com{" "}
+              clientes. Com isto, nossa empresa trabalha totalmente com{" "}
               <span className="text-[#993399]/70 font-semibold">DELIVERY</span>{" "}
               e{" "}
               <span className="text-[#993399]/70 font-semibold">RETIRADA</span>{" "}
